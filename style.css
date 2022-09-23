@@ -1,0 +1,38 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 1000px;
+}
+
+tr {
+    text-align: center;
+    border-bottom: 4px solid rgb(235, 235, 235);
+}
+
+#header {
+    background: rgb(130, 173, 130);
+    height: 60px;
+    color: white;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+tr.hover:hover {
+    border-left: 3px solid gray;
+    cursor: pointer;
+}
+
+.textcolor {
+    color: rgb(156, 156, 156);
+}
+
+tr > td {
+    padding-right: 50px;
+}
